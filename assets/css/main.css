@@ -1,0 +1,53 @@
+.myform-onlog{
+    border: 1px solid #48b0f7  !important;
+}
+/*input{*/
+/*    border: 1px solid #48b0f7 !important;*/
+/*}*/
+
+/*.bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="col-"]{
+    border: 1px solid #48b0f7  !important; 
+}*/
+
+textarea{
+    border: 1px solid #48b0f7  !important;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin-left: 38%;
+}
+
+#ui-id-1{
+    display: block;
+    margin: 4px;
+    padding: 5px 8px;
+    cursor: pointer;
+    -webkit-transition: 0.15s linear;
+    transition: 0.15s linear;
+}
+.ui-menu-item-wrapper{
+    color: #48b0f7;
+    padding: 5px 5px;
+    font-size: 14px;
+}
+.ui-menu-item-wrapper:hover{
+    border: none;
+    background: #48b0f7 !important;
+}
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
